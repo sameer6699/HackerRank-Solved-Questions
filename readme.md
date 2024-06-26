@@ -1,44 +1,47 @@
-<h2>Project Euler #1: Multiples of 3 and 5</h2>
-<p>Write a program to solve Below. problem statement</p>
+<h2><a href="https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem">#1 Project Euler #1: Multiples of 3 and 5</a>
+</h2><h3>Medium</h3><hr>
+<p>This problem is a programming version of Problem 1 from projecteuler.net</p>
 
-<p>If we list all the natural numbers below 10 multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of  or  below .</p>
+<p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below N.</p>
 
-<h2>Input Format</h2>
-<p>First line contains T which denotes the number of test cases. This is followed by T lines, each containing an integer, N.</p>
-
-<ol> Constraints
-	<li><code>1 <= T <= 10 <sup>5</code></li>
-  <li><code>1 <= N <= 10 <sup>9</code></li>
-</ol>
-
-<h2>Output Format</h2>
-<p>For each test case, print an integer that denotes the sum of all the multiples of 3 or 5 below N.</p>
-
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
-<img src="" style="height:250px; width:250px" />
-<pre>
-<strong>Input:</strong> board = [[&quot;5&quot;,&quot;3&quot;,&quot;.&quot;,&quot;.&quot;,&quot;7&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;],[&quot;6&quot;,&quot;.&quot;,&quot;.&quot;,&quot;1&quot;,&quot;9&quot;,&quot;5&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;],[&quot;.&quot;,&quot;9&quot;,&quot;8&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;6&quot;,&quot;.&quot;],[&quot;8&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;6&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;3&quot;],[&quot;4&quot;,&quot;.&quot;,&quot;.&quot;,&quot;8&quot;,&quot;.&quot;,&quot;3&quot;,&quot;.&quot;,&quot;.&quot;,&quot;1&quot;],[&quot;7&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;2&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;6&quot;],[&quot;.&quot;,&quot;6&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;2&quot;,&quot;8&quot;,&quot;.&quot;],[&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;4&quot;,&quot;1&quot;,&quot;9&quot;,&quot;.&quot;,&quot;.&quot;,&quot;5&quot;],[&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;.&quot;,&quot;8&quot;,&quot;.&quot;,&quot;.&quot;,&quot;7&quot;,&quot;9&quot;]]
-<strong>Output:</strong> [[&quot;5&quot;,&quot;3&quot;,&quot;4&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;1&quot;,&quot;2&quot;],[&quot;6&quot;,&quot;7&quot;,&quot;2&quot;,&quot;1&quot;,&quot;9&quot;,&quot;5&quot;,&quot;3&quot;,&quot;4&quot;,&quot;8&quot;],[&quot;1&quot;,&quot;9&quot;,&quot;8&quot;,&quot;3&quot;,&quot;4&quot;,&quot;2&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;],[&quot;8&quot;,&quot;5&quot;,&quot;9&quot;,&quot;7&quot;,&quot;6&quot;,&quot;1&quot;,&quot;4&quot;,&quot;2&quot;,&quot;3&quot;],[&quot;4&quot;,&quot;2&quot;,&quot;6&quot;,&quot;8&quot;,&quot;5&quot;,&quot;3&quot;,&quot;7&quot;,&quot;9&quot;,&quot;1&quot;],[&quot;7&quot;,&quot;1&quot;,&quot;3&quot;,&quot;9&quot;,&quot;2&quot;,&quot;4&quot;,&quot;8&quot;,&quot;5&quot;,&quot;6&quot;],[&quot;9&quot;,&quot;6&quot;,&quot;1&quot;,&quot;5&quot;,&quot;3&quot;,&quot;7&quot;,&quot;2&quot;,&quot;8&quot;,&quot;4&quot;],[&quot;2&quot;,&quot;8&quot;,&quot;7&quot;,&quot;4&quot;,&quot;1&quot;,&quot;9&quot;,&quot;6&quot;,&quot;3&quot;,&quot;5&quot;],[&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;2&quot;,&quot;8&quot;,&quot;6&quot;,&quot;1&quot;,&quot;7&quot;,&quot;9&quot;]]
-<strong>Explanation:</strong>&nbsp;The input board is shown above and the only valid solution is shown below:
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sudoku-by-L2G-20050714_solution.svg/250px-Sudoku-by-L2G-20050714_solution.svg.png" style="height:250px; width:250px" />
-</pre>
-
-<p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>board.length == 9</code></li>
-	<li><code>board[i].length == 9</code></li>
-	<li><code>board[i][j]</code> is a digit or <code>&#39;.&#39;</code>.</li>
-	<li>It is <strong>guaranteed</strong> that the input board has only one solution.</li>
-</ul>
-<h1>Solution</h1>
-<ul>
-	<li><b>is_valid Function:</b> <p>Checks if a given number can be placed at a specific position without violating Sudoku rules.
-Could you check the row, column, and the 3x3 sub-box for the presence of the number? </p></li>
-	<li><b>solve Function:</b> <p>Uses backtracking to try filling each empty cell with a valid number. If a valid number is found, it proceeds to the next cell. If no valid number can be placed, it backtracks and tries the next possible number for the previous cell.</p></li>
-	<li><b>solveSudoku Method:</b> <p>Calls the solve function to start the solving process.</p></li>
+	<li><code>1 &lt;= T&lt;= 10<sup>5</sup></code></li>
+	<li><code>1&nbsp;&lt;= N&nbsp;&lt;=10<sup>9</sup></code></li>
 </ul>
 
+<h2> Output Format</h2>
+<p>For each test case, print an integer that denotes the sum of all the multiples of 3 or 5 below N.</p>
+<p>&nbsp;</p>
+<p><strong class="example">Sample Input 0:</strong></p>
+<pre>
+2
+10
+100
+</pre>
+<p><strong class="example">Sample Output 0:</strong></p>
+<pre>
+23
+2318
+</pre>
+<p>&nbsp;</p>
+
+<h1>Explnation</h1>
+<p>For N=10, if we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23.
+
+Similarly for N=100, we get 2318.</p>
+
+
+<h1>Solution</h1>
+<p>To solve the problem of finding the first and last position of a target value in a sorted array with <code>O(log n)</code> runtime complexity, we can use binary search.</p>
+
+<ul>
+	<li><b>Class Definition:</b> <p>The <code> Solution</code> class contains the <code> searchRange</code> method, which takes nums and targets as input parameters.</p></li>
+	<li><b>Helper Function:</b> <p>find_left: This function finds the leftmost <code>(first)</code> index of the target. It uses binary search to locate the first occurrence of the target by moving right when <code>nums[mid]</code> is greater than or equal to the target.
+	find_right: This function finds the rightmost <code>(last)</code> index of the target. It uses binary search to locate the last occurrence of the target by moving left when <code>nums[mid]</code> is less than or equal to the target.</p></li>
+	<li><b>Method Implementation:</b> <p>Calculate the <code>left</code> and <code>right</code> indices of the target using the helper functions.
+	Check if the indices are valid and if the values at these indices match the target.
+	Return the indices if valid; otherwise,<code> return [-1, -1].</code></p></li>
+	<li>This approach ensures the algorithm runs in O(log n) time complexity, leveraging binary search to efficiently find the first and last positions of the target in the sorted array.</li>
+</ul>
