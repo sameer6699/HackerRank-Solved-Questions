@@ -35,13 +35,3 @@ Similarly for N=100, we get 2318.</p>
 
 <h1>Solution</h1>
 <p>To optimize the solution and avoid the "Time limit exceeded" issue, we can use a mathematical approach instead of iterating through all numbers below n. The mathematical approach calculates the sum of multiples using the formula for the sum of an arithmetic series.</p>
-
-<ul>
-	<li><b>Class Definition:</b> <p>The <code> Solution</code> class contains the <code> searchRange</code> method, which takes nums and targets as input parameters.</p></li>
-	<li><b>Helper Function:</b> <p>find_left: This function finds the leftmost <code>(first)</code> index of the target. It uses binary search to locate the first occurrence of the target by moving right when <code>nums[mid]</code> is greater than or equal to the target.
-	find_right: This function finds the rightmost <code>(last)</code> index of the target. It uses binary search to locate the last occurrence of the target by moving left when <code>nums[mid]</code> is less than or equal to the target.</p></li>
-	<li><b>Method Implementation:</b> <p>Calculate the <code>left</code> and <code>right</code> indices of the target using the helper functions.
-	Check if the indices are valid and if the values at these indices match the target.
-	Return the indices if valid; otherwise,<code> return [-1, -1].</code></p></li>
-	<li>This approach ensures the algorithm runs in O(log n) time complexity, leveraging binary search to efficiently find the first and last positions of the target in the sorted array.</li>
-</ul>
