@@ -34,7 +34,7 @@ Similarly for N=100, we get 2318.</p>
 
 
 <h1>Solution</h1>
-<p>To solve the problem of finding the first and last position of a target value in a sorted array with <code>O(log n)</code> runtime complexity, we can use binary search.</p>
+<p>To optimize the solution and avoid the "Time limit exceeded" issue, we can use a mathematical approach instead of iterating through all numbers below n. The mathematical approach calculates the sum of multiples using the formula for the sum of an arithmetic series.</p>
 
 <ul>
 	<li><b>Class Definition:</b> <p>The <code> Solution</code> class contains the <code> searchRange</code> method, which takes nums and targets as input parameters.</p></li>
