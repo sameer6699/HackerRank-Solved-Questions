@@ -1,6 +1,6 @@
 <h2><a href="https://www.hackerrank.com/contests/projecteuler/challenges/euler001/problem">#1 Project Euler #1: Multiples of 3 and 5</a>
-</h2><h3>Medium</h3><hr>
-<p>This problem is a programming version of Problem 1 from projecteuler.net</p>
+</h2><h3>Easy</h3><hr>
+<p>This problem is a programming version of Problem 3 from <a href="https://projecteuler.net/">projecteuler.net</a></p>
 
 <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3,5,6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below N.</p>
 
