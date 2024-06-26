@@ -7,10 +7,10 @@
 By considering the terms in the Fibonacci sequence whose values do not exceed N, find the sum of the even-valued terms.
 </p>
 
-<h2>Input Format
+<h2>Input Format</h2>
 <p>First line contains T which denotes the number of test cases. This is followed by T lines, 
   each containing an integer, N.</p>
-</h2>
+
 
 <p><strong>Constraints:</strong></p>
 
