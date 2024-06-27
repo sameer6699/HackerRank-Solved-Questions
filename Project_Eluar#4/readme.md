@@ -1,6 +1,6 @@
 <h2>
 <a href="https://www.hackerrank.com/contests/projecteuler/challenges/euler003/problem">Project Euler #3: Largest prime factor</a></h2>
-<h3>Easy</h3>
+<h3>Medium</h3>
 <p>This problem is a programming version of Problem 4 from <a href="https://projecteuler.net/">projecteuler.net</a></p>
 <p>A palindromic number reads the same both ways. The smallest 6-digit palindrome made from the product of two 3-digit numbers is <code>101101 = 143 * 707<.</code></p>
 <p>Find the largest palindrome made from the product of two 3-digit numbers which is less than N.</p>
