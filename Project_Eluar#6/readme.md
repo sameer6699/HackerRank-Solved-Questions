@@ -44,11 +44,11 @@ each containing an integer, N.</p>
 
 
 <h1>Solution</h1>
-<p>To solve the problem of finding the smallest positive number that is evenly divisible by all numbers from <code>1</code> to a given number <code>𝑛</code>
-n, we need to compute the least common multiple (LCM) of the range <code>[1, n].</code> The LCM of a set of numbers is the smallest number that is a multiple of each of the numbers in the set.</p>
-<p>The formula for the LCM of two numbers a and 𝑏 b can be derived from their greatest common divisor (GCD):</p>
+<p>. This problem involves calculating the absolute difference between the sum of the squares and the square of the sum for the first n natural numbers.</p>
 <p><b>Explanation:</b>
-  <ol>
-    <li><b>In Python, the math module provides a gcd function, which we can use to implement the LCM function.</b></li>
+  <ol><h3><b>Function sum_square_difference(n):</b></h3>
+    <li><b>sum_of_squares:</b> This is the sum of the squares of the first n natural numbers. It is calculated using a generator expression inside the sum function:<code> sum(i ** 2 for i in range(1, n + 1)).</code></li>
+    <li><b>square_of_sum:</b> This is the square of the sum of the first n natural numbers. The sum is calculated using <code>sum(range(1, n + 1))</code>, and then it is squared.</li>
+	  <li><b>Return:</b> The function returns the absolute difference between <code>sum_of_squares</code> and <code>square_of_sum.</code></li>
 </ol>
 </p>
