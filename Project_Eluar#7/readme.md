@@ -1,5 +1,5 @@
 <h2>
-<a href="https:https://www.hackerrank.com/contests/projecteuler/challenges/euler007/problem?isFullScreen=true">Project Euler #7: 10001st prime</a></h2>
+<a href="https://www.hackerrank.com/contests/projecteuler/challenges/euler007/problem">Project Euler #7: 10001st prime</a></h2>
 <h3>Easy</h3>
 <p>This problem is a programming version of Problem 7<a href="https://projecteuler.net/">projecteuler.net</a></p>
 <p>By listing the first six prime numbers: 2,3,5,7,11 and 13, we can see that the 6<sup>th</sup> prime is 13.
