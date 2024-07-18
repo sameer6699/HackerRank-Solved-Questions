@@ -2,7 +2,7 @@
 <a href="https://www.hackerrank.com/contests/projecteuler/challenges/euler009/problem?isFullScreen=true">Project Euler #9: SpecialPythagorean triplet</a></h2>
 <h3>Easy</h3>
 <p>This problem is a programming version of Problem 9 <a href="https://projecteuler.net/">projecteuler.net</a></p>
-<p>A Pythagorean triplet is a set of three natural numbers,<code> a < b < c </code> , for which, <code>a<sup>2 + b<sup>2 = c<sup>3</code></p>
+<p>A Pythagorean triplet is a set of three natural numbers,<code> a < b < c </code> , for which, <code>a<sup>2</sup> + b<sup>2</sup> = c<sup>3</sup></code></p>
 <p>For example: <code> 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</code> </p>
 <p>Given<code>N</code>, Check if there exists any Pythagorean triplet for which <code> a + b + c = N</code> 
 Find the maximum possible value of <code> abc </code> among all such Pythagorean triplets, If there is no such Pythagorean triplet print -1.</p>
