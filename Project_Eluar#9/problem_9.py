@@ -1,3 +1,5 @@
+# Problem Statement 1: Special Pythagorean triplet
+
 def find_max_pythagorean_triplet_product(n):
     max_product = -1
     for a in range(1, n // 3):
