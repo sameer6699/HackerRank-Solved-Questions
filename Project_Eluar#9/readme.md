@@ -5,7 +5,7 @@
 <p>A Pythagorean triplet is a set of three natural numbers,<code> a < b < c </code> , for which, <code>a<sup>2</sup> + b<sup>2</sup> = c<sup>3</sup></code></p>
 <p>For example: <code> 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25 = 5<sup>2</code> </p>
 <p>Given<code>N</code>, Check if there exists any Pythagorean triplet for which <code> a + b + c = N</code> 
-Find the maximum possible value of <code> abc </code> among all such Pythagorean triplets, If there is no such Pythagorean triplet print -1.</p>
+Find the maximum possible value of <code> ABC </code> among all such Pythagorean triplets, If there is no such Pythagorean triplet print -1.</p>
 
 <h2>Input Format</h2>
 <p>The first line contains an integer T i.e. number of test cases.
