@@ -4,7 +4,7 @@
 <p>The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. Find the sum of all the primes not greater than given N.</p>
 
 <h2>Input Format</h2>
-<p>The first line contains an integer T i.e. number of test cases.
+<p>The first line contains an integer T i.e., the number of test cases.
 The next T lines will contain an integer N.</p>
 
 
